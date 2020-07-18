@@ -14,11 +14,22 @@ f.close()
 
 duplicates = []  # Return the list of duplicates in this data structure
 
+# Quadratic Runtime
+# Performs linear time operation for each value in the data
+
 # Replace the nested for loops below with your improvements
 # for name_1 in names_1:
 #     for name_2 in names_2:
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
+
+# Quasilinear Runtime
+
+# Linear Runtime O(n)
+# for each value in data1(O(n))
+
+# Logarithmic runtime O(log n)
+# use binary search (O(log n)) to search same value in data2
 
 search_tree = BSTNode(names_1[0])
 for name in names_1[1:]:
